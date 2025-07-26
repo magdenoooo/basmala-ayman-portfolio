@@ -161,7 +161,7 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
                 <div className={`w-16 h-16 ${darkMode ? 'bg-gradient-to-r from-amber-500 to-orange-500' : 'bg-gradient-to-r from-pink-500 to-purple-600'} rounded-full mx-auto mb-4 flex items-center justify-center`}>
                   {darkMode ? <Star className="w-8 h-8 text-white" /> : <Sparkles className="w-8 h-8 text-white" />}
                 </div>
-                <h3 className={`text-xl font-bold ${darkMode ? 'text-gray-200' : 'text-gray-800'} mb-2`}>لنتحدث!</h3>
+                <h3 className={`text-xl font-bold ${darkMode ? 'text-gray-200' : 'text-gray-800'} mb-2`}>Let's talk</h3>
                 <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'} text-sm`}>I love hearing your creative ideas</p>
               </div>
 
